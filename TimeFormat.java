@@ -28,6 +28,15 @@ public class TimeFormat {
                  System.out.println(hours + ":" + minuts+ " AM");
              }
     }
+    if (hours == 12 ) { 
+        if ( minuts<= 10){
+        System.out.println(hours + ":0"+ minuts + " PM");
+        }
+
+        else {
+            System.out.println(hours + ":" + minuts+ " PM");
+        }
+    }
 }
 }
        
