@@ -10,6 +10,6 @@ public class FVCalc {
        
 
 
-       System.out.println("After " + years + " years, "+ currentValue +"$ saved at " + percentage+"% will yield " + (int) futureValue + "$.");
+       System.out.println("After " + years + " years, a "+ currentValue +"$ saved at " + percentage+"% will yield " + (int) futureValue + "$");
 }
 }
