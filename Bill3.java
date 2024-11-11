@@ -4,11 +4,11 @@ public class Bill3 {
     String secondName = args[1];
     String thirdName = args[2];
     double bill =Double.parseDouble(args[3]) ;
-    double amount = bill / 3;
+    double amount =Math.ceil( bill / 3 );
 
     
 
-    System.out.println("Dear " +firstName + ", " + secondName +" and " + thirdName +": pay " + amount + " Shekels each.");
+    System.out.println("Dear " +thirdName + ", " + secondName +", and " + firstName +": pay " + amount + " Shekels each");
    
     }
     }
