@@ -1,9 +1,10 @@
 public class Ascend {
 
     public static void main(String[] args) {
-    double a = Math.random() * 100;
-    double b = Math.random()* 100;
-    double c = Math.random()* 100;
+        int lim = Integer.parseInt(args[0]);
+        double a = Math.random() *lim ;
+        double b = Math.random()* lim;
+        double c = Math.random()* lim;
 
     double sum = a+b+c;
    double min= Math.min(a,b);
