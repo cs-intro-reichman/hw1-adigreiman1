@@ -12,20 +12,20 @@ public class TimeFormat {
        
 
         if ( minuts<= 10) { 
-       System.out.println(hours + ":0"+ minuts + "PM");
+       System.out.println(hours + ":0"+ minuts + " PM");
         }
 
         else {
-            System.out.println(hours + ":" + minuts+ "PM");
+            System.out.println(hours + ":" + minuts+ " PM");
         }
     }
     else{
         if ( minuts<= 10) { 
-            System.out.println(hours + ":0"+ minuts + "AM");
+            System.out.println(hours + ":0"+ minuts + " AM");
              }
      
              else {
-                 System.out.println(hours + ":" + minuts+ "AM");
+                 System.out.println(hours + ":" + minuts+ " AM");
              }
     }
 }
